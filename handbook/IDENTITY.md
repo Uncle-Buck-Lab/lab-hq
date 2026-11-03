@@ -2,7 +2,7 @@
 
 ## Name and brand architecture
 
-**Uncle Buck's Laboratory** is the master brand. Possessive, with the apostrophe: the lab belongs to Uncle Buck. Handles and domains drop the apostrophe: `unclebuckslab` everywhere, `unclebuckslab.com` for the site. The GitHub organization is `Uncle-Buck-Lab`.
+**Uncle Buck's Laboratory** is the master brand. Possessive, with the apostrophe: the lab belongs to Uncle Buck. Handles and domains drop the apostrophe: `unclebuckslab` everywhere, `unclebuckslab.com` for the site. The GitHub organization is `unclebuckslab`.
 
 Each project keeps its own name and carries an endorsement line: *Congress Cards, from Uncle Buck's Laboratory.* While the lab has no audience, every project builds attention for the one name. A project earns a brand of its own only after it has an audience of its own.
 

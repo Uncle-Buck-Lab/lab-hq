@@ -2,7 +2,7 @@
 
 ## Repos
 
-- Lab repos live in the `Uncle-Buck-Lab` GitHub organization. Names are lowercase with hyphens: `congress-cards`, `lab-site`.
+- Lab repos live in the `unclebuckslab` GitHub organization. Names are lowercase with hyphens: `congress-cards`, `lab-site`.
 - New projects start from [templates/project/](../templates/project/).
 - Public unless the data or plans are private. Public-good projects are always public.
 

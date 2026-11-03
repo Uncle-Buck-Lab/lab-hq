@@ -2,8 +2,8 @@
 
 This is a project of Uncle Buck's Laboratory. Lab-wide rules come first:
 
-1. Read the lab index: https://raw.githubusercontent.com/Uncle-Buck-Lab/lab-hq/main/INDEX.md
-2. Read the lab instructions: https://raw.githubusercontent.com/Uncle-Buck-Lab/lab-hq/main/CLAUDE.md
+1. Read the lab index: https://raw.githubusercontent.com/unclebuckslab/lab-hq/main/INDEX.md
+2. Read the lab instructions: https://raw.githubusercontent.com/unclebuckslab/lab-hq/main/CLAUDE.md
 3. Then this file and this repo's `handbook/`.
 
 Where this file and the lab rules conflict, the stricter rule wins.

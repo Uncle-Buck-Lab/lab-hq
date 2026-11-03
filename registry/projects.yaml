@@ -17,7 +17,7 @@ projects:
     playbook: playbooks/report.md
     agents: [researcher, editor, ops]
     next_milestone: P1
-    notes: Transfers into the Uncle-Buck-Lab org after its private Actions minutes are checked.
+    notes: Transfers into the unclebuckslab org after its private Actions minutes are checked.
 
   - id: denver-sales
     name: Denver Neighborhood Sales
@@ -62,7 +62,7 @@ projects:
     status: in-the-lab
     show_on_site: false
     priority: 4
-    repo: Uncle-Buck-Lab/lab-site
+    repo: unclebuckslab/lab-site
     public_url: null
     summary: Short posts from the lab; the first home of the weekly blog.
     playbook: null

@@ -9,7 +9,7 @@ Adapted from the Data Product Starter in the denver-dashboard repo.
 | Layer | What it is | Default |
 | --- | --- | --- |
 | 1. Instructions | How agents operate the project | `CLAUDE.md` pointing to lab-hq's `INDEX.md`, plus the project `handbook/` |
-| 2. Repo | Code, data snapshots, docs: the source of truth | A repo in the `Uncle-Buck-Lab` org, public unless the data is private |
+| 2. Repo | Code, data snapshots, docs: the source of truth | A repo in the `unclebuckslab` org, public unless the data is private |
 | 3. Data flow | Scheduled pull from an API or feed | GitHub Actions cron, `scripts/fetch.py` writing to `data/raw/` |
 | 4. Processing | Cleaning, joining, derived fields, the "so what" | `scripts/build.py` writing one JSON file with a documented contract |
 | 5. Page | What people look at | Static HTML/JS on GitHub Pages reading that JSON, listed on the lab site |

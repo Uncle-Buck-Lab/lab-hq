@@ -2,7 +2,7 @@
 
 Every lab session reads this file first. It lists each handbook file and what it's for. When files are added or renamed, only this index changes, so project instructions never need re-pasting.
 
-Claude Projects and other tools read these files by link, never as uploaded copies. Raw links start with `https://raw.githubusercontent.com/Uncle-Buck-Lab/lab-hq/main/`.
+Claude Projects and other tools read these files by link, never as uploaded copies. Raw links start with `https://raw.githubusercontent.com/unclebuckslab/lab-hq/main/`.
 
 ## Who we are
 

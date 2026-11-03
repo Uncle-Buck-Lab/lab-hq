@@ -5,7 +5,7 @@
 ## Starting a project
 
 1. Add the project to `registry/projects.yaml` (stage `define`) and run `python registry/validate.py`.
-2. Create the repo in the `Uncle-Buck-Lab` org, empty.
+2. Create the repo in the `unclebuckslab` org, empty.
 3. Copy everything in `project/` into it, including `.github/`.
 4. Replace every `PROJECT NAME` and fill in `CLAUDE.md` first: purpose, type, playbook, point of view.
 5. Follow the playbook for the project's type.
