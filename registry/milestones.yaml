@@ -1,0 +1,107 @@
+# Lab milestones: estimated vs actual focus hours. No calendar dates.
+# Log actual hours as work closes. Fields are defined in registry/README.md.
+
+milestones:
+  - id: S1
+    name: Lab accounts and domain
+    after: []
+    est_hours: 3
+    actual_hours: null
+    status: in-progress
+    done_means: Setup guide steps 1-8. Password vault, security keys, domain, lab email, handles reserved, GitHub org with its three repos, separate AI spend.
+
+  - id: M0
+    name: First decisions
+    after: []
+    est_hours: 1
+    actual_hours: null
+    status: done
+    done_means: Name, hours model, repo structure, writing rules, workspace cleanup.
+
+  - id: M1
+    name: Lab HQ foundation
+    after: [S1]
+    est_hours: 8
+    actual_hours: null
+    status: in-progress
+    done_means: lab-hq with CLAUDE.md, INDEX.md, the handbook, a registry of the five projects and the project template, merged to main.
+
+  - id: B1
+    name: Brand voice and character
+    after: [M1]
+    est_hours: 8
+    actual_hours: null
+    status: not-started
+    done_means: Three recorded voice interviews with the founder, 10+ writing samples with notes, VOICE.md, CHARACTER.md, the two explainer pages drafted.
+
+  - id: M2
+    name: Site v1
+    after: [M1, B1]
+    est_hours: 13
+    actual_hours: null
+    status: not-started
+    done_means: Live at unclebuckslab.com with every launch page; email signup and analytics working.
+
+  - id: P1
+    name: AI Money Report issue 001
+    after: []
+    est_hours: 12
+    actual_hours: null
+    status: in-progress
+    done_means: Drafted, fact-checked and reviewed; final name picked. The launch piece.
+
+  - id: L1
+    name: Public launch
+    after: [M2, P1]
+    est_hours: 2
+    actual_hours: null
+    status: not-started
+    done_means: Site, issue 001 and Denver go public together; reserved handles point to the site; first lab notebook entries live.
+
+  - id: M3
+    name: Agent squad v1
+    after: [M1]
+    est_hours: 12
+    actual_hours: null
+    status: not-started
+    done_means: Three subagents and three skills with eval gold sets; read/act boundary enforced; scheduled headless briefing and ops check in Actions; away runbook written.
+
+  - id: S2
+    name: Legal entity and money
+    after: [S1]
+    est_hours: 5
+    actual_hours: null
+    status: not-started
+    done_means: Setup guide steps 9-19. Done before Congress Cards publishes profiles or any money comes in.
+
+  - id: M4
+    name: Congress Cards defined
+    after: [M1, S2]
+    est_hours: 8
+    actual_hours: null
+    status: not-started
+    done_means: Repo from the template, sources recorded, one card for one member, reviewed for impartiality.
+
+  - id: M5
+    name: Field Notes live
+    after: [M2]
+    est_hours: 5
+    actual_hours: null
+    status: not-started
+    done_means: Section on the site, idea-capture template, two posts.
+
+  - id: M6
+    name: Command center v0
+    after: [M3]
+    est_hours: 6
+    actual_hours: null
+    status: not-started
+    done_means: Private page in lab-desk showing the registry, Actions status, the approval queue and hours estimated vs actual.
+
+  - id: K1
+    name: First Kit
+    after: [S2]
+    est_hours: 8
+    actual_hours: null
+    status: not-started
+    done_means: One project's build kit packaged and tested; sold only once its trigger in MONEY_RULES.md is met.

@@ -1,0 +1,59 @@
+name: Task
+description: A piece of work an agent or the founder can pick up and finish
+labels: ["task"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What this task achieves, in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs
+      description: Sources, files, data or prior work to start from.
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Deliverable
+      description: What exists when this is done.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How the founder will check it. A list of tests the work must pass.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Assigned role
+      options:
+        - Chief of Staff
+        - Researcher / Fact-checker
+        - Editor
+        - Developer
+        - Ops
+        - Founder
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Approval tier
+      description: See lab-hq handbook/GOVERNANCE.md. When unsure, choose Explicit.
+      options:
+        - Pre-authorized
+        - Batched
+        - Explicit
+    validations:
+      required: true
+  - type: input
+    id: estimate
+    attributes:
+      label: Estimated focus hours
+      placeholder: "2"

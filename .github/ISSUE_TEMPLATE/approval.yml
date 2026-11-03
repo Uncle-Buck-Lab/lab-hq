@@ -1,0 +1,42 @@
+name: Approval request
+description: Something that needs the founder's explicit yes (money, publishing, permissions, deletions, outside communication)
+labels: ["needs-approval"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What needs approval
+      description: The exact action, in one or two sentences.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Publish something public
+        - Spend money or start a subscription
+        - New API key or service
+        - Delete data, files or repos
+        - Change permissions or secrets
+        - Outside communication
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: What it unblocks and what happens if the answer is no.
+    validations:
+      required: true
+  - type: input
+    id: cost
+    attributes:
+      label: Cost, if any
+      placeholder: "$0, or $X per month"
+  - type: textarea
+    id: undo
+    attributes:
+      label: How to undo it
+      description: Leave blank only if it can't be undone, and say so.

@@ -1,0 +1,29 @@
+name: Idea
+description: Capture an idea in thirty seconds. The Chief of Staff turns it into a plan later.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: A sentence or two. Rough is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it's interesting
+      description: Optional. Who it's for, what question it answers, what made you think of it.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Kind of thing
+      options:
+        - Not sure yet
+        - Recurring report
+        - Dashboard or data product
+        - Reference database
+        - Visual, map or data deck
+        - Brand or content channel
+        - Product or tool
+        - Writing
