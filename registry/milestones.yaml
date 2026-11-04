@@ -23,7 +23,7 @@ milestones:
     after: [S1]
     est_hours: 8
     actual_hours: null
-    status: in-progress
+    status: done
     done_means: lab-hq with CLAUDE.md, INDEX.md, the handbook, a registry of the five projects and the project template, merged to main.
 
   - id: B1
