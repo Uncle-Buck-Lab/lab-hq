@@ -10,6 +10,7 @@ One home for each kind of information. A copy kept anywhere else drifts out of d
 | Tasks and approvals | GitHub issues and pull requests | Notes apps |
 | Lab-level decisions | lab-hq `decisions/` | Chat history |
 | Briefings, spend, token expiry dates, inbound, private plans | `lab-desk` (private) | Public repos |
+| Strategy: growth playbook, pricing, revenue targets, partner pipeline | `lab-desk/strategy/` (private) | Public repos |
 | Secrets and logins | GitHub Actions secrets and the lab password vault | Files, chat, browser password stores |
 | Published work | The project's repo and the lab site | Anywhere it can't be traced to its sources |
 
