@@ -11,13 +11,13 @@ projects:
     status: in-the-lab
     show_on_site: true
     priority: 1
-    repo: unclebuck20/ai-money-report
+    repo: unclebuckslab/ai-money-report
     public_url: null
     summary: Where the AI money goes, who wins, who pays, and what the filings show that the headlines don't.
     playbook: playbooks/report.md
     agents: [researcher, editor, ops]
     next_milestone: P1
-    notes: Transfers into the unclebuckslab org after its private Actions minutes are checked.
+    notes: Moved into the unclebuckslab org on Nov 5, 2026. Stays private; about 344 Actions minutes in its first 8 days.
 
   - id: denver-sales
     name: Denver Neighborhood Sales
@@ -34,7 +34,7 @@ projects:
     playbook: playbooks/data-product.md
     agents: [ops]
     next_milestone: M2
-    notes: Reframed as a lab project during the site build (README, page header, project page).
+    notes: Reframed as a lab project during the site build (README, page header, project page). Repo stays in the founder's account until outside reviewers are done with the current URL; moving it changes the Pages address with no redirect.
 
   - id: congress-cards
     name: Congress Cards
@@ -70,6 +70,23 @@ projects:
     next_milestone: M5
     notes: Lives inside the lab site rather than its own repo.
 
+  - id: dorkgraphs
+    name: DorkGraphs
+    working_name: false
+    endorsement: from Uncle Buck's Laboratory
+    type: brand
+    stage: define
+    status: in-the-lab
+    show_on_site: false
+    priority: 5
+    repo: unclebuckslab/dorkgraphs
+    public_url: null
+    summary: Daily charts and maps of the American experience, showing how the country got here and where it's headed.
+    playbook: null
+    agents: []
+    next_milestone: null
+    notes: Instagram-only (@dorkgraphs). Its character is a dork data scientist, not a wizard. Delete the duplicate unclebuck20/dorkgraphs once the lab copy is confirmed complete.
+
   - id: music-oracle
     name: Music prediction brand
     working_name: true
@@ -78,11 +95,11 @@ projects:
     stage: idea
     status: parked
     show_on_site: false
-    priority: 5
+    priority: 6
     repo: null
     public_url: null
     summary: Data-driven predictions for live music, told by a character of its own.
     playbook: null
     agents: []
     next_milestone: null
-    notes: Parked. Revisit after the first public launch.
+    notes: Parked. Launches later under an adjusted scope that doesn't overlap DorkGraphs or Uncle Buck.
