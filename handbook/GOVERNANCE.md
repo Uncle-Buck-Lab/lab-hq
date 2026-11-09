@@ -32,6 +32,7 @@ When an agent can't tell which tier applies, it treats the work as Explicit.
 - **The session** happens once a week. Batched items are reviewed together; Explicit items can be approved any time.
 - **Wait time** is recorded by the ops check. Anything waiting more than 7 days is flagged in the weekly briefing.
 - **A merge is an approval.** The `publish` label on a merged PR makes it public.
+- **A merge instruction in chat is an approval too.** When the founder tells an agent to merge a specific PR, the agent merges it and notes that in the PR. Permission changes are the exception: the founder merges those himself.
 
 ## Records
 
