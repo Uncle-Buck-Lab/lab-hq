@@ -28,7 +28,7 @@ Set now so the decision isn't made on a whim. The founder can move a trigger, bu
 
 | Stream | Starts when |
 | --- | --- |
-| The Kit | One project's kit is complete and tested, and 250 people have joined the Kit interest list |
+| The Kit | A kit is complete and tested, and the founder judges there is enough interest from the Kit interest tag on the lab dispatch list. Each release gets a dated decision citing the numbers (see `decisions/2026-11-11-project-shelves.md`) |
 | Newsletter sponsorships | 2,500 subscribers with healthy open rates |
 | Brand partnerships | A brand the founder already likes asks, or the audience justifies pitching one |
 | Display ads | 25,000 monthly pageviews |
